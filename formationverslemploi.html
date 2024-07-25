@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation vers l'emploi</title>
+    <script type="text/javascript" language="javascript" src="formationverslemploi.json"></script>
+    <link rel="stylesheet" href="./formationverslemploi.css">
+    <script src="./formationverslemploi.js" defer></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body>
+    <div class="Jeu">
+
+        <div class="InfoJeu">
+        <button class="BoutonRecruter BChartreuse" disabled autocomplete="off">Recruter</button>
+        <button class="BoutonCompteur BChartreuse">0</button>     
+        <button class="BoutonCommencer BChartreuse">Démarrer</button>        
+        </div>
+
+        <div class="EtatPersonnage">
+            <div class="Perso Personnage1">
+                <p>Albert</p>
+                <img src="Albert.png" alt="photo Albert">
+                <div class="Les4barres">
+                    <div class="BarreSS" id="ss1"></div>
+                    <div class="BarreTS" id="st1"></div>
+                    <div class="BarreW" id="w1"></div>
+                    <div class="BarreRAE" id="rae1"></div>
+                </div>
+            </div>
+            <div class="Perso Personnage2">
+                <p>Elon</p>
+                <img src="Elon.png" alt="photo Elon">
+                <div class="Les4barres">
+                    <div class="BarreSS" id="ss2"></div>
+                    <div class="BarreTS" id="st2"></div>
+                    <div class="BarreW" id="w2"></div>
+                    <div class="BarreRAE" id="rae2"></div>
+                </div>
+            </div>
+            <div class="Perso Personnage3">
+                <p>Steve</p>
+                <img src="Steve.png" alt="photo Steve">
+                <div class="Les4barres">
+                    <div class="BarreSS" id="ss3"></div>
+                    <div class="BarreTS" id="st3"></div>
+                    <div class="BarreW" id="w3"></div>
+                    <div class="BarreRAE" id="rae3"></div>
+                </div>
+            </div>
+            <div class="leFrancois Personnage4">
+                <p>Francois</p>
+                <img src="Francois.png" alt="photo Francois">
+                <div class="Les4barres">
+                    <div class="BarreSS" id="ss4"></div>
+                    <div class="BarreTS" id="st4"></div>
+                    <div class="BarreW" id="w4"></div>
+                    <div class="BarreRAE" id="rae4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ZoneDeTir">
+            <p id="textedebut">Répondez à leurs besoins puis recrutez un maximum de candidats à la fin du temps de formation !</p>           
+            <p>----</p>
+            <p>Sous chaque candidat, il y a 4 barres d'énergies différentes.</p>
+            <p>----</p>
+            <p>Un candidat avec une barre d'énergie vide est éliminé.</p>
+            <p>----</p>
+            <p>Choississez le type d'énergie avec un des boutons du bas puis cliquez ensuite sur la cible mouvante d'un candidat pour l'énergiser.</p>
+        </div>
+
+        <div class="Armement">
+            <button class="CompetenceDouce">Soft Skills</button>
+            <button class="CompetenceTechnique">Hard Skills</button>
+            <button class="BienEtre">Bien être</button>
+            <button class="Sommeil">Repos repas</button>
+        </div>
+    </div>
+
+</body>
+</html>

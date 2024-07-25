@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;*/
+    height: 670px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-color: #7FFF0033;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+p{
+    font-weight: 700;
+}
+
+#textedebut{
+    font-size: large;
+}
+
+.Les4barres{
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.BarreSS, .BarreTS, .BarreW, .BarreRAE{
+    width: 12px;
+    height: 25px;  
+}
+.BarreSS{
+    background-color: #804067dd;
+}
+.BarreTS{
+    background-color: #8D00FFdd;
+}
+.BarreW{
+    background-color:#ff009ddd;
+}
+.BarreRAE{
+    background-color: #608040dd;
+}
+
+.EtatPersonnage {
+    display: flex;
+    justify-content: space-around; 
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 8px;
+    font-weight: 800;
+}
+.InfoJeu, .Armement{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}   
+
+.ZoneDeTir{
+    height: 400px;
+    width: 240px;
+    border: 2px solid black;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden; /*ça cache quand ça sort de la zone*/
+}    
+
+.BChartreuse{
+    margin-top: 10px;
+    background-color: chartreuse;
+    cursor: pointer;
+    width: 30%;
+}
+
+.BienEtre{
+    background-color: rgba(255, 0, 157, 0.867);
+    width: 20%;
+}
+
+.CompetenceDouce{
+    background-color: rgba(128, 64, 103, 0.867);
+    width: 20%;
+}
+
+.CompetenceTechnique{
+    background-color: rgba(141, 0, 255, 0.867);
+    width: 20%;
+}
+
+.Sommeil{
+    background-color: rgba(96, 128, 64, 0.867);
+    width: 20%;
+}
+
+.cible{
+    border-radius: 50%;
+}
+.cible:hover{
+    background-color: chartreuse;
+}
+@keyframes animationRecruter{
+from{
+    background-color: rgba(128, 64, 103, 0.867);   
+}
+25% {
+    background-color: rgba(141, 0, 255, 0.867);   
+}
+50% {
+    background-color: rgba(255, 0, 157, 0.867);   
+}
+75% {
+    background-color: rgba(96, 128, 64, 0.867);
+}
+to{
+    background-color: rgba(128, 64, 103, 0.867);
+}    
+}
+
+.clickdefin{
+    animation: animationRecruter 3s infinite;
+}
+@keyframes clapDeFin {
+    from{transform:scale(1,1);}
+    to{transform:scale(0,1);}
+}
+
+.finDeFin{
+    animation: clapDeFin 3s;
+}
+
+
+
+
+

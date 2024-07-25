@@ -1,0 +1,42 @@
+const monJson = [
+{
+    "nom": "Albert",
+    "source": "Albert.png"
+},
+{
+    "nom": "Elon",
+    "source": "Elon.png"
+},
+{
+    "nom": "Steve",
+    "source": "Steve.png"
+},
+{
+    "nom": "Marilyn",
+    "source": "Marilyn.png"
+},
+{
+    "nom": "Lizzy",
+    "source": "Lizzy.png"
+},
+{
+    "nom": "Teresa",
+    "source": "Teresa.png"
+},
+{
+    "nom": "Bruce",
+    "source": "Bruce.png"
+},
+{
+    "nom": "Diana",
+    "source": "Diana.png"
+},
+{
+    "nom": "Charlie",
+    "source": "Charlie.png"
+},
+{
+    "nom": "Martin",
+    "source": "Martin.png"
+}
+]
